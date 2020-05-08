@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Single - Down's Link Double</title>
+
+    <!-- CSS  -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+
+    <style>
+      li {
+        padding-bottom: 8px;
+      }
+      .nested {
+        padding-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="route.html">Route</a></li>
+          <li><a href="records.html">Records</a></li>
+          <li><a href="single.html">Single</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="route.html">Route</a></li>
+          <li><a href="records.html">Records</a></li>
+          <li><a href="single.html">Single</a></li>
+        </ul>
+
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger grey-text"
+          ><i class="material-icons">menu</i></a
+        >
+      </div>
+    </nav>
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <br /><br />
+          <h1 class="header center grey-text text-darken-4">
+            Riding the Single
+          </h1>
+
+          <div class="row center"></div>
+          <br /><br />
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="background1.jpg" alt="Unsplashed background img 1" />
+      </div>
+    </div>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <p class="left-align light">
+              The single is (unsuprisingly) exactly half the distance, going
+              from the Way Marker on the side of St Martha's down to the finish
+              point at Shoreham.
+            </p>
+            <p class="left-align light">
+              The route is 72km long, and (again, unsuprisingly) has half the
+              elevation change, at around 300m. This is the perfect introduction
+              to ITT riding, and can be easily completed in a day at an easy
+              pace.
+            </p>
+          </div>
+          <iframe
+            src="https://www.komoot.com/tour/161047406/embed?profile=1"
+            width="100%"
+            height="580"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </div>
+        <div class="row">
+          <div class="col s12 center">
+            <h3>Records</h3>
+            <table class="striped centered">
+              <thead>
+                <tr>
+                  <th>Rider Name</th>
+                  <th>Time</th>
+                  <th>Attempt Date</th>
+                  <th>Details/info</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td colspan="4">
+                    No timed attempts yet! Go ride and email in your attempt!
+                    Submissions can be sent to
+                    <a href="mailto:downslinkdouble@gmail.com"
+                      >downslinkdouble@gmail.com</a
+                    >.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row center">
+            <h5 class="header col s12 light"></h5>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="background3.jpg" alt="Unsplashed background img 3" />
+      </div>
+    </div>
+
+    <footer class="page-footer teal">
+      <div class="footer-copyright">
+        <div class="container">
+          Website by
+          <a class="brown-text text-lighten-3" href="http://tomsherlock.info"
+            >Tom Sherlock</a
+          >. CSS by
+          <a class="brown-text text-lighten-3" href="http://materializecss.com"
+            >Materialize</a
+          >.
+        </div>
+      </div>
+    </footer>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".collapsible").collapsible();
+      });
+    </script>
+  </body>
+</html>
