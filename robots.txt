@@ -1,0 +1,2 @@
+User-agent: *
+SITEMAP: http://downslinkdouble.co.uk/sitemap.xml
